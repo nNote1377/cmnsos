@@ -16,7 +16,7 @@ body{
     color: rgb(0, 0, 0);
 }
 
-/*nav{
+#nav{
     background: rgb(255, 255, 255);
 	padding: 10px;
     text-align: center;
@@ -25,9 +25,9 @@ body{
     font-size: 15px;
     border: 1px solid black;
     opacity: 100%;
-}*/
+}
 
-logo{
+#logo{
     background-image: linear-gradient(right,#0f193d,#2c2f62,#1a2753);
     color: aqua;
 }
