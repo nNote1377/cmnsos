@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: Arial;
+    /*user-select: none;*/
+    margin: 0px;
+    padding: 0px;
+    /*background-image: url();
+    background-attachment: fixed;*/
+}
+
+#container{
+    color: rgb(0, 0, 0);
+}
+
+/*nav{
+    background: rgb(255, 255, 255);
+	padding: 10px;
+    text-align: center;
+    clear: both;
+    width: auto;
+    font-size: 15px;
+    border: 1px solid black;
+    opacity: 100%;
+}*/
+
+logo{
+    background-image: linear-gradient(right,#0f193d,#2c2f62,#1a2753);
+    color: aqua;
+}
