@@ -1,0 +1,2 @@
+# cmnsos
+Praca na filozofie
