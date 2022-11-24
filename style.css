@@ -14,6 +14,7 @@ body{
 
 #container{
     color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 #nav{
@@ -30,4 +31,10 @@ body{
 #logo{
     background-image: linear-gradient(to right,#0f193d,#2c2f62,#1a2753);
 	/*cos nie dziala*/
+}
+
+#footer{
+    background-color: black;
+    color: #ffffff;
+    padding: 10px;
 }
