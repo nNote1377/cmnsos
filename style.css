@@ -15,6 +15,7 @@ body{
 .container{
     text-align: center;
     width: 100%;
+    background-color: black;
 }
 
 .nav{
@@ -32,15 +33,21 @@ body{
 }
 
 .logo{
-    background-image: linear-gradient(to right,#1a2753,#0c0c3b,#1a2753);
+    /*background-image: linear-gradient(to right,#1a2753,#0c0c3b,#1a2753);*/
+    background-image: conic-gradient(red, orange, yellow, green, lightseagreen, blue,  purple, violet, red);
     padding: 10px;
     font-size: 40px;
+
+    
 }
+
 .tytul{
     opacity: 100%;
 
+    text-shadow: 1px 1px 0px black, 1px -1px 0px black, -1px 1px 0px black, -1px -1px 0px black;
+
     animation: 
-        animacja2 10s linear infinite normal;
+        animacja2 15s linear infinite normal;
 }
 
 @keyframes animacja2{
@@ -99,10 +106,10 @@ body{
 
 @keyframes sloncekolor1{
     from{
-        color: red;
+        color: yellow;
     }
     to{
-        color: yellow;
+        color: blue;
     }
 }
 
@@ -159,6 +166,7 @@ body{
 .tabelkanaslonce{
     width: 99%;
     text-align: center;
+    opacity: 100;
     
 }
 
