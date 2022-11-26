@@ -34,7 +34,7 @@ body{
 .logo{
     background-image: linear-gradient(to right,#1a2753,#0c0c3b,#1a2753);
     padding: 10px;
-    font-size: 50px;
+    font-size: 40px;
 }
 .tytul{
     opacity: 100%;
@@ -75,7 +75,26 @@ body{
 
 
 .slonce{
-    color: yellow;
+    width: 0%;
+    height: 0%;
+    margin: 5%;
+    animation: 
+        slonce1 4.999s linear infinite normal;
+}
+
+@keyframes slonce1{
+    from{
+        color: red;
+    }
+    50%{
+        
+        margin-left: 85%;
+    }
+    to{
+        color: yellow;
+    }
+
+
 }
 
 .footer{
