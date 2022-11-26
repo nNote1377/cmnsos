@@ -12,12 +12,12 @@ body{
     background-attachment: fixed;*/
 }
 
-#container{
+.container{
     color: rgb(0, 0, 0);
     text-align: center;
 }
 
-#nav{
+.nav{
     background: rgb(255, 255, 255);
 	padding: 10px;
     text-align: center;
@@ -27,13 +27,16 @@ body{
     border: 1px solid black;
     opacity: 100%;
     color: black;
+    position: fixed;
+    width: 100%;
 }
 
-#logo{
+.logo{
     background-image: linear-gradient(to right,#0f193d,#2c2f62,#1a2753);
+    color: white;
 }
 
-#footer{
+.footer{
     background-color: black;
     color: #ffffff;
     padding: 10px;
