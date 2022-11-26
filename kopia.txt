@@ -42,3 +42,26 @@
 
 
 <hr> do oddzielania
+
+.slonce1{
+    width: 0%;
+    height: 0%;
+    margin: 5%;
+    animation: 
+        slonce1 4.999s linear infinite normal;
+}
+
+@keyframes slonce1{
+    from{
+        color: red;
+    }
+    50%{
+        
+        margin-left: 85%;
+    }
+    to{
+        color: yellow;
+    }
+
+
+}

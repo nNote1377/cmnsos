@@ -74,21 +74,110 @@ body{
 }
 
 
-.slonce{
+.slonce1{
+    width: 0%;
+    height: 0%;
+    margin-top: 5%;
+    animation: 
+        slonce1 5s linear infinite normal,
+        sloncekolor1 6s linear infinite alternate;
+}
+
+@keyframes slonce1{
+    from{
+        
+    }
+    50%{
+        margin-left: 85%;
+    }
+    to{
+        
+    }
+
+
+}
+
+@keyframes sloncekolor1{
+    from{
+        color: red;
+    }
+    to{
+        color: yellow;
+    }
+}
+
+.slonce3{
+    width: 0%;
+    height: 0%;
+    margin-top: 5%;
+    animation: 
+        slonce1 6s linear infinite normal,
+        sloncekolor1 2.3s linear infinite alternate;
+}
+
+
+.slonce4{
+    width: 0%;
+    height: 0%;
+    margin-top: 5%;
+    animation: 
+        slonce1 3.5s linear infinite normal,
+        sloncekolor1 10s linear infinite alternate;
+}
+
+.slonce2{
+    width: 0%;
+    height: 0%;
+    margin-top: 5%;
+    animation: 
+        slonce1 4.34s linear infinite normal,
+        sloncekolor1 8.6s linear infinite alternate;
+}
+
+.slonce5{
+    width: 0%;
+    height: 0%;
+    margin-top: 10%;
+    animation: 
+        slonce1 2.4s linear infinite normal,
+        sloncekolor1 10s linear infinite alternate;
+}
+
+.slonce6{
+    width: 0%;
+    height: 0%;
+    margin-top: 10%;
+    animation: 
+        slonce1 4.5s linear infinite normal,
+        sloncekolor1 1s linear infinite alternate;
+}
+
+
+.schoweknaslonce{
+    width: 33%;
+}
+.tabelkanaslonce{
+    width: 99%;
+    text-align: center;
+    
+}
+
+/*
+.slonce2{
     width: 0%;
     height: 0%;
     margin: 5%;
     animation: 
-        slonce1 4.999s linear infinite normal;
+        slonce2 4.999s linear infinite normal;
 }
 
-@keyframes slonce1{
+@keyframes slonce2{
     from{
         color: red;
     }
     50%{
         
-        margin-left: 85%;
+        margin-right: 85%;
     }
     to{
         color: yellow;
@@ -96,6 +185,7 @@ body{
 
 
 }
+*/
 
 .footer{
     background-color: black;
