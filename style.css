@@ -15,7 +15,7 @@ body{
 .container{
     text-align: center;
     width: 100%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .nav{
@@ -170,30 +170,11 @@ body{
     
 }
 
-/*
-.slonce2{
-    width: 0%;
-    height: 0%;
-    margin: 5%;
-    animation: 
-        slonce2 4.999s linear infinite normal;
+
+.t1{
+    background-color: #ffffff;
 }
 
-@keyframes slonce2{
-    from{
-        color: red;
-    }
-    50%{
-        
-        margin-right: 85%;
-    }
-    to{
-        color: yellow;
-    }
-
-
-}
-*/
 
 .footer{
     background-color: black;
