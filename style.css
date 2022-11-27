@@ -10,6 +10,7 @@ body{
     padding: 0px;
     /*background-image: url();
     background-attachment: fixed;*/
+    background-color: black;
 }
 
 .container{
@@ -193,10 +194,11 @@ a{
 .film{
     text-align: center;
     font-size: 50px;
+    text-align: center;
 }
 
 .filmm{
-    border:40px solid;
+    border:10px solid;
     border-bottom-style: dashed;
     border-bottom-color: aqua;
     border-top-style: double;
@@ -205,4 +207,17 @@ a{
     border-left-color: yellow;
     border-right-style: groove;
     border-right-color: green;
+}
+.tabelkanasloncefilm{
+    margin-left: 8px;
+    width: 98%;
+    text-align: center;
+    opacity: 100;
+    text-shadow: 1px 1px 0px black, 1px -1px 0px black, -1px 1px 0px black, -1px -1px 0px black; 
+}
+.lorem{
+    font-size: small;
+
+    animation: 
+        animacja2 15s linear infinite normal;
 }
