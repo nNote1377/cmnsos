@@ -20,13 +20,14 @@ body{
 
 .nav{
     background: rgb(255, 255, 255);
-	padding: 10px;
-    text-align: center;
+	padding: 5px;
+    padding-left: 250px;
+    text-align: left;
     clear: both;
     width: auto;
-    font-size: 15px;
+    font-size: 25px;
     border: 1px solid black;
-    opacity: 50%;
+    opacity: 80%;
     color: black;
     position: fixed;
     width: 100%;
@@ -40,6 +41,7 @@ body{
 
     
 }
+
 
 .tytul{
     opacity: 100%;
@@ -180,4 +182,27 @@ body{
     background-color: black;
     color: #ffffff;
     padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 48, 2);
+    opacity: 100%;
+}
+
+.film{
+    text-align: center;
+    font-size: 50px;
+}
+
+.filmm{
+    border:40px solid;
+    border-bottom-style: dashed;
+    border-bottom-color: aqua;
+    border-top-style: double;
+    border-top-color: red;
+    border-left-style: dotted;
+    border-left-color: yellow;
+    border-right-style: groove;
+    border-right-color: green;
 }
