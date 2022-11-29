@@ -207,7 +207,21 @@ a{
     border-left-color: yellow;
     border-right-style: groove;
     border-right-color: green;
+
+    animation: 
+        filmowy 5s linear infinite normal,
 }
+
+@keyframes filmowy{
+    from{
+        border-left-color: yellow;
+    }
+    to{
+        border-left-color: rgb(0, 153, 255);
+    }
+}
+
+
 .tabelkanasloncefilm{
     margin-left: 8px;
     width: 98%;
