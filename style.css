@@ -207,19 +207,9 @@ a{
     border-left-color: yellow;
     border-right-style: groove;
     border-right-color: green;
-
-    animation: 
-        filmowy 5s linear infinite normal,
 }
 
-@keyframes filmowy{
-    from{
-        border-left-color: yellow;
-    }
-    to{
-        border-left-color: rgb(0, 153, 255);
-    }
-}
+
 
 
 .tabelkanasloncefilm{
@@ -234,4 +224,18 @@ a{
 
     animation: 
         animacja2 15s linear infinite normal;
+}
+
+.filmmm {
+    border:5px solid;
+    border-bottom-style: dashed;
+    border-bottom-color: aqua;
+    border-top-style: double;
+    border-top-color: red;
+    border-left-style: dotted;
+    border-left-color: yellow;
+    border-right-style: groove;
+    border-right-color: green;
+
+    
 }
